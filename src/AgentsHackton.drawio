@@ -1,0 +1,99 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.1 Chrome/128.0.6613.186 Electron/32.2.6 Safari/537.36" version="25.0.1">
+  <diagram name="Page-1" id="vi35acOxkIUwAv7Cc4Zm">
+    <mxGraphModel dx="1354" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0BmHSBCm1tn6DEY9RKad-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-350" width="470" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-1" value="Hiring Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="165" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-2" value="HR Hiring Specialist" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="375" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="300" as="sourcePoint" />
+            <mxPoint x="355" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-6" value="1) Describe Role and Responsibilities&lt;div&gt;Technical Requirements&lt;/div&gt;&lt;div&gt;Seniority&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="195" y="230" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-9" value="2) Create the Job Profile with:&lt;div&gt;- Technical Details&lt;/div&gt;&lt;div&gt;- Benefits&lt;/div&gt;&lt;div&gt;- Seniority&lt;/div&gt;&lt;div&gt;- Expected Salary Range&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="230" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-10" value="Job Requisition&lt;div&gt;Document&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="695" y="250" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="300" as="sourcePoint" />
+            <mxPoint x="675" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-12" value="Workday&lt;div&gt;Careers&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="400" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="360" as="sourcePoint" />
+            <mxPoint x="635" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-14" value="3) Send the Job description to Workday" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="385" y="420" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ObHdOw-tSX2_qSYhkpck-19" target="ObHdOw-tSX2_qSYhkpck-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-19" value="&lt;b&gt;Agent:&amp;nbsp;&lt;/b&gt;&lt;b&gt;Summarization&amp;nbsp;&lt;/b&gt;&lt;div&gt;Input: Audio file&lt;br&gt;&lt;div&gt;Output: Conversation Speech to Text and Summarize it focusing on the Job requimrents&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" parent="1" vertex="1">
+          <mxGeometry x="10" y="624.97" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ObHdOw-tSX2_qSYhkpck-20" target="ObHdOw-tSX2_qSYhkpck-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-20" value="&lt;b&gt;Agent:&lt;/b&gt; &lt;b&gt;HR Specialist&lt;/b&gt;&amp;nbsp;&lt;div&gt;Input: Summarized text with Job Requirements&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Output: Job Requisition with - Technical Details, Benefits, Seniority and Salary Range&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="1" vertex="1">
+          <mxGeometry x="282.5" y="624.97" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-21" value="Job Templates&lt;div&gt;(+ Benefits)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=19;fillColor=#FFFFCC;" parent="1" vertex="1">
+          <mxGeometry x="282.5" y="774.97" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-22" value="Audio file with Conversation from Hiring Manager and HR" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=19;fillColor=#FFFFCC;" parent="1" vertex="1">
+          <mxGeometry x="55" y="794.97" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ObHdOw-tSX2_qSYhkpck-22" target="ObHdOw-tSX2_qSYhkpck-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="794.97" as="sourcePoint" />
+            <mxPoint x="75" y="744.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-26" value="Salary Ranges per Seniority" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFCC;" parent="1" vertex="1">
+          <mxGeometry x="405" y="774.97" width="75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.552;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ObHdOw-tSX2_qSYhkpck-28" target="ObHdOw-tSX2_qSYhkpck-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="714" y="579.97" />
+              <mxPoint x="390" y="579.97" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ObHdOw-tSX2_qSYhkpck-28" target="ObHdOw-tSX2_qSYhkpck-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-28" value="&lt;b&gt;Agent:&lt;/b&gt; &lt;b&gt;External Communications Checker&lt;/b&gt;&amp;nbsp;&lt;div&gt;Input: Job Requisition Form&lt;/div&gt;&lt;div&gt;Output:&amp;nbsp;Validate the external communications against pre-defined rules (ex.: language errors)&lt;br&gt;&lt;/div&gt;&lt;div&gt;If Ok - Job Requisition Form&lt;/div&gt;&lt;div&gt;If Nok - Errors to be fixed&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" parent="1" vertex="1">
+          <mxGeometry x="595" y="624.97" width="265" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ObHdOw-tSX2_qSYhkpck-31" value="&lt;b&gt;Agent:&lt;/b&gt; &lt;b&gt;Workday Agent&lt;/b&gt;&amp;nbsp;&lt;div&gt;Input: Job Requirements&lt;/div&gt;&lt;div&gt;Logic:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Output: Send Job Requisitiion to Workday using API&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="1" vertex="1">
+          <mxGeometry x="930" y="624.97" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0BmHSBCm1tn6DEY9RKad-1" value="&lt;b&gt;Case Study:&lt;/b&gt; Streamline process of Job Opportunities&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;HR:&lt;/b&gt;&amp;nbsp;&quot;We want our Job Opportunities out in the market as soon as possible, with compliancy and quality in place&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Background:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- More than 120 job openings per month&lt;/div&gt;&lt;div&gt;- Currently it takes in average 3 weeks for a Job Opportunity to be posted online&lt;/div&gt;&lt;div&gt;- Process with different stakeholders and manual tasks being performed&lt;/div&gt;&lt;div&gt;- Different Hiring Teams with different skills, expertise, and&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Every area / position have different processes (approvals, reviews, budget)&lt;/div&gt;&lt;div&gt;- Integrated with the different applications&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="-340" width="437.5" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
