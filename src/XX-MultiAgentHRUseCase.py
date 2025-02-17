@@ -7,7 +7,7 @@ Hiring Manager: Hi, I'd like to discuss creating a new position.
 HR Specialist: Sure, what role are you considering?
 Hiring Manager: We need a Senior Cloud Solution Architect for Azure to work on innovation using cloud-native technologies in The Netherlands.
 HR Specialist: That sounds exciting! Can you provide more details on the responsibilities and requirements?
-Hiring Manager: The candidate should have extensive experience with Azure, cloud-native technologies, and a passion for innovation.
+Hiring Manager: The candidate should have extensive experience with Azure, cloud-native technologies, and a passion for innovation. Salary expectations are around €80,000 per year.
 """
 
 # ------------Summarization Agent------------
@@ -32,7 +32,7 @@ hr_specialist_agent = ConversableAgent(
     name="HR Specialist Agent",
     system_message=(
         "You are an HR Specialist. Based on the provided job requirements, create a Job Requisition "
-        "with Technical Details, Benefits, Seniority, and Salary Range. The output must be in HTML format "
+        "with Technical Details, Benefits, Seniority, and Salary Range. The output must be in HTML format using the 'microsoft_logo.png' as logo. Also brand it as Microsoft. "
     ),
     llm_config=llm_config,
     human_input_mode="NEVER",
@@ -50,7 +50,7 @@ print(job_requisition)
 external_reviewer_agent = ConversableAgent(
     name="External Communications Reviewer Agent",
     system_message=(
-        "You are responsible for validating external communications against predefined rules, such as language errors. Also check if the logo is part of the Job Requisition. Logo is: Heineken-Logo.svg with 20pct of the size.  "
+        "You are responsible for validating external communications against predefined rules, such as language errors. "
         "If everything is okay, confirm that the Job Requisition Form is ready. If not, list the errors to be fixed, starting with 'Errors to be fixed:'."
     ),
     llm_config=llm_config,
